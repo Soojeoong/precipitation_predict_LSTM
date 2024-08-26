@@ -62,10 +62,6 @@ class Trainer:
 
                 outputs = self.model(inputs)
                 
-                # Inverse transform the predictions and targets
-                #outputs = outputs.cpu().numpy() * self.scaler.scale_[-1] + self.scaler.mean_[-1] ###
-                #targets = self.scaler.inverse_transform(targets.cpu().numpy()) ###
-                
                 loss = self.criterion(outputs, targets)
                 running_loss += loss.item()
                 
