@@ -8,7 +8,7 @@ class LSTM(nn.Module):
         super(LSTM, self).__init__()
         self.num_layers = num_layers # LSTM stack layer (위로 쌓임)
         # self.input_size = input_size # feature 개수
-        self.hidden_size = hidden_size # 옆으로?
+        self.hidden_size = hidden_size # 옆으로
         
         self.lstm = nn.LSTM(input_size=input_size, hidden_size=hidden_size,
                             num_layers=num_layers, batch_first=True)
