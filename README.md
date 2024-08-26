@@ -4,7 +4,7 @@
 - [캐글 weather-prediction](https://www.kaggle.com/datasets/ananthr1/weather-prediction)
 
 ## ✅LSTM cell
-- ![LSTM cell](C:\Users\ksjpt\Soojeoong_git\precipitation_predict_LSTM\lstm.png)
+- ![LSTM cell](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/stack_lstm.png)
 
 ## ✅Model Architecture
-- ![Stacked LSTM](C:\Users\ksjpt\Soojeoong_git\precipitation_predict_LSTM\stack_lstm.png)
+- ![Stacked LSTM](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/stack_lstm.png)
