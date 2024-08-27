@@ -19,8 +19,6 @@
 |**id2**|1|10|30|4|10|0.001|
 |**id3**|3|10|30|4|10|0.001|
 
-![id1](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id1.png)
-![id2](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id2.png)
-![id3](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id3.png)
+![id1](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id1.png) ![id2](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id2.png) ![id3](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id3.png)
 
 강수량의 평균(0)에 가깝게 예측하는 경향이 있다.
