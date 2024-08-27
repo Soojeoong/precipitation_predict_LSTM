@@ -14,6 +14,8 @@ class LSTM(nn.Module):
                             num_layers=num_layers, batch_first=True)
         self.fc = nn.Linear(hidden_size, output_size)
         
+        self._initialize_weights() # 가중치 초기화
+        
     def forward(self, x):
         # x: [batch_size, sequence_length, input_size]
         
@@ -28,6 +30,13 @@ class LSTM(nn.Module):
         out = self.fc(out)
         
         return out
+    
+    def _initialize_weights(self):
+        for name, param in self.named_parameters():
+            if 'weight' in name:
+                nn.init.xavier_uniform_(param)  # Xavier 초기화
+            elif 'bias' in name:
+                nn.init.zeros_(param)  # 편향을 0으로 초기화
     
 if __name__ == "__main__":
     # Batch size = 32, Sequence length = 5, Input size = 3
