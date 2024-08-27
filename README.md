@@ -22,7 +22,7 @@
 
 
 ![id1](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id1.png) | ![id2](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id2.png) | ![id3](https://github.com/Soojeoong/precipitation_predict_LSTM/blob/main/test_results_id3.png)
----|---|---|
+:---:|:---:|:---:|
 id1|id2|id3|
 
 
