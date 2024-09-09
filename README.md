@@ -1,4 +1,4 @@
-# precipitation predict using LSTM
+# Precipitation Prediction Using LSTM
 
 ### ✅Data
 [kaggle weather-prediction](https://www.kaggle.com/datasets/ananthr1/weather-prediction)
